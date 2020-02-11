@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -27,6 +29,8 @@ double f_l;
 double f_i;
 double f_c;
 int L;
+
+Scanner keyboard = new Scanner(System.in);
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c *L;
 
