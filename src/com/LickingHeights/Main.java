@@ -33,6 +33,8 @@ int L;
 Scanner keyboard = new Scanner(System.in);
 System.out.println("Enter the rStar value");
 rStar = keyboard.nextInt();
+System.out.println("Enter the f_p value (fraction of those stars that have planets)");
+f_p = keyboard.nextDouble();
 
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c *L;
