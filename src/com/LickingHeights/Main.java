@@ -35,6 +35,8 @@ System.out.println("Enter the rStar value");
 rStar = keyboard.nextInt();
 System.out.println("Enter the f_p value (fraction of those stars that have planets)");
 f_p = keyboard.nextDouble();
+System.out.println("Enter the Number of Exo Planets(Number of planets able to support life");
+numberOfExoplanets = keyboard.nextInt();
 
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c *L;
