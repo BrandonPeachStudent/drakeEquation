@@ -43,7 +43,8 @@ System.out.println("Enter the f_i value(fraction of life that develops intellige
 f_i = keyboard.nextDouble();
 System.out.println("Enter the f_c value(fraction that develops detectable communications)");
 f_c = keyboard.nextDouble();
-
+System.out.println("Enter the L value(Longevity for communication");
+L = keyboard.nextInt();
 
 
 
