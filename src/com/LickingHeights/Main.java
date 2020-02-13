@@ -41,6 +41,9 @@ System.out.println("Enter the f_l value(fraction of exoplanets where life evolve
 f_l = keyboard.nextDouble();
 System.out.println("Enter the f_i value(fraction of life that develops intelligence)");
 f_i = keyboard.nextDouble();
+System.out.println("Enter the f_c value(fraction that develops detectable communications)");
+f_c = keyboard.nextDouble();
+
 
 
 
