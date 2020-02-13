@@ -37,6 +37,8 @@ System.out.println("Enter the f_p value (fraction of those stars that have plane
 f_p = keyboard.nextDouble();
 System.out.println("Enter the Number of Exo Planets(Number of planets able to support life");
 numberOfExoplanets = keyboard.nextInt();
+System.out.println("Enter the f_l value(fraction of exoplanets where life evolves");
+f_l = keyboard.nextDouble();
 
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c *L;
