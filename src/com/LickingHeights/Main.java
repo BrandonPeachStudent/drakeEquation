@@ -39,6 +39,9 @@ System.out.println("Enter the Number of Exo Planets(Number of planets able to su
 numberOfExoplanets = keyboard.nextInt();
 System.out.println("Enter the f_l value(fraction of exoplanets where life evolves");
 f_l = keyboard.nextDouble();
+System.out.println("Enter the f_i value(fraction of life that develops intelligence)");
+f_i = keyboard.nextDouble();
+
 
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c *L;
